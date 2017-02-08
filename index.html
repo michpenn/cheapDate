@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cheap Date</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row text-center">
+        <h1 class="display-3">So You're Looking For A Cheap Date?</h1>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-4">
+            <h4>What Do You Want To See?</h4>
+
+            <form id="eventData">
+                <div class="form-group">
+                    <label for="eventGenre">Genre of Event</label>
+                    <select id="eventGenre" name="eventGenre" class="form-control">
+                        <option selected>Theatre</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="eventName">Name of Event</label>
+                    <select id="eventName" name=="eventName" class="form-control">
+                        <option selected>Hamilton</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="eventCity">City of Event</label>
+                    <select id="eventCity" name="eventCity" class="form-control">
+                        <option selected>New York</option>
+                        <option>Chicago</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div style="height: 100px;"></div>
+<table id="tableData" class="table display"></table>
+
+
+</body>
+</html>
