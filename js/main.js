@@ -37,17 +37,6 @@ function getEventInfo(event){
                     {title: 'id', data: 'event_id'}]
             });
         });
-    // $.ajax(logInSettings).done(function(response){
-    //     accessToken = 'Bearer ' +response.access_token;
-    //     requestSettings.headers.authorization = accessToken;
-    //     console.log('log in res:', accessToken);
-    //     $.ajax(requestSettings).done(function (response) {
-    //         console.log('res',response);
-    //     });
-    // });
-
-
-
 
     event.preventDefault();
 }
